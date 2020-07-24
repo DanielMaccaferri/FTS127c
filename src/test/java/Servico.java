@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 
-public class Servico {
+public class Servico { //Boa noite
 
     public String lerJson(String caminhoJson) throws IOException {  // serve para carregar qualquer json
         return new String(Files.readAllBytes(Paths.get(caminhoJson)));
